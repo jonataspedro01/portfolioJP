@@ -1,0 +1,36 @@
+.titulo {
+    display: flex;
+    padding-right: 10px;
+    padding: 4px;
+}
+
+.titulo__dev {
+    margin-right: 28%;
+    display: flex;
+    margin-left: 20px;
+}
+
+.titulo__logo {
+    width: 100px;
+    margin-top: -10px;
+    margin-right: -31px;
+    margin-left: 90px;
+}
+
+/* .titulo__jp {
+    margin-top: 52px;
+    margin-left: -12px;
+} */
+
+.titulo a , p{
+    margin-left: 29px;
+    margin-top: 40px;
+    color: #262626;
+    font-size: 17px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.titulo p {
+    color: #000000;
+    font-weight: bold;
+}
