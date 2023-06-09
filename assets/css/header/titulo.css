@@ -2,6 +2,8 @@
     display: flex;
     padding-right: 10px;
     padding: 4px;
+    position: relative;
+    top: -22px;
 }
 
 .titulo__dev {
@@ -12,7 +14,7 @@
 
 .titulo__logo {
     width: 100px;
-    margin-top: -10px;
+    margin-top: -15px;
     margin-right: -31px;
     margin-left: 90px;
 }
@@ -22,7 +24,7 @@
     margin-left: -12px;
 } */
 
-.titulo a , p{
+.titulo , .titulo__link  , .titulo__email{
     margin-left: 29px;
     margin-top: 40px;
     color: #262626;
@@ -30,7 +32,11 @@
     font-family: 'Raleway', sans-serif;
 }
 
-.titulo p {
+.titulo__link {
+    margin-left: 20px;
+}
+
+.titulo p{
     color: #000000;
     font-weight: bold;
 }

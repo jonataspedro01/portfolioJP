@@ -1,0 +1,26 @@
+.sobreMim {
+    width: 100%;
+    background-color: #EAF2FD;
+    height: 250px;
+    margin-top: 34px;
+}
+
+.sobreMim__text {
+    margin-left: 170px;
+    color: #464646;
+    width: 48%;
+    text-align: justify;
+}
+
+.sobreMim_text , h1 {
+    font-size: 32px;
+    margin-top: 22px;
+    margin-left: 0px;
+    font-size: bold;
+    padding-top: 30px;
+}
+
+.sobreMim_text , p {
+    font-size: 17px;
+    margin-top: 16px;
+}
