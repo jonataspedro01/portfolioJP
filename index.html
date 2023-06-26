@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio Jonatas Pedro</title>
+    <meta name="description" content="Portfólio Jonatas Pedro">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;500&family=Rowdies:wght@300&display=swap" rel="stylesheet">
@@ -17,6 +18,12 @@
     <link rel="stylesheet" href="assets/css/main/skills.css">
     <link rel="stylesheet" href="assets/css/main/hobbies.css">
     <link rel="stylesheet" href="assets/css/main/formacao.css">
+    <link rel="stylesheet" href="assets/css/main/experienciaIFRN.css">
+    <link rel="stylesheet" href="assets/css/main/experienciaONE.css">
+    <link rel="stylesheet" href="assets/css/main/experienciaPro.css">
+    <link rel="stylesheet" href="assets/css/main/experienciaPe.css">
+    <link rel="stylesheet" href="assets/css/main/contato.css">
+    <link rel="stylesheet" href="assets/css/footer/footer.css">
 </head>
 <body>
 
@@ -38,9 +45,13 @@
     </header>
 
     <div class="emConstrucao">
-        <h1>Portfólio em construção. Volte em breve ou visite minhas redes.
-            <a href="https://github.com/jonataspedro01" target="_blank">Github</a>
-            <a href="https://linkedin.com/in/jonataspedrodev">LinkedIn</a></h1>
+        <div class="construindo">
+        <h1>Portfólio em construção. Volte em breve ou visite minhas redes.</h1>
+            <div class="links__cons">
+                <a href="https://github.com/jonataspedro01" target="_blank">Github</a>
+                <a href="https://linkedin.com/in/jonataspedrodev" target="_blank">LinkedIn</a>
+            </div>
+        </div>
     </div>
 
     <main>
@@ -63,7 +74,7 @@
                 </section>
             </div>
             <div class="apresentacao__logo">
-                 <img src="./assets/imagens/ft-perfil.jpeg" alt="logo" class="logo__apresentacao"></a> 
+                 <img src="./assets/imagens/ft-perfil.jpeg" alt="logo" class="logo__apresentacao"> 
             </div>    
         </div>
 
@@ -196,41 +207,93 @@
         </section>
         
         <section>
-            <h1>Experiência Profissional</h1>
-            <div>
-                <h2>Projetos desenvolvidos no IFRN</h2>
+            <h1 class="experiencia__titulo">Experiência Profissional</h1>
+            <h2 class="experiencia__IFRN--titulo">Projetos desenvolvidos no IFRN</h2>
+            <div class="experiencia__IFRN">           
+                <div class="experencia__IFRN--conteudo">
+                    <p class="experencia__IFRN--descricao">PROJETO 01</p>
+                </div>
+                <div class="experencia__IFRN--conteudo">
+                    <p class="experencia__IFRN--descricao">PROJETO 02</p>
+                </div>
+                <div class="experencia__IFRN--conteudo">
+                    <p class="experencia__IFRN--descricao">PROJETO 03</p>
+                </div>
             </div>
-            <div>
-                <h2>Projetos desenvolvidos no Programa ONE
-            </div>
-            <div>
-                <h2>Projetos Profissionais</h2>
-            </div>
-            <div>
-                <h2>Projetos Pessoais</h2>
-            </div>
-            <!-- <div></div>
-            <div></div> -->
         </section>
 
         <section>
-            <img>
-            <h1>Contato</h1>
-            <p>Quer entrar em contato comigo?
-                Preencha o formulário ao lado e entrarei em contato o mais rápido possível.</p>
-            <form>
-                <input type=nome>
-                <input type="email">
-                <input type="text">
-                <input type="text">
-                <button>Enviar mensagem</button>
-            </form>
+            <h2 class="experiencia__ONE--titulo">Projetos desenvolvidos no Programa ONE</h2>
+            <div class="experiencia__ONE">
+                <div class="experencia__ONE--conteudo">
+                    <p class="experencia__ONE--descricao">PROJETO 01</p>
+                </div>
+                <div class="experencia__ONE--conteudo">
+                    <p class="experencia__ONE--descricao">PROJETO 02</p>
+                </div>
+                <div class="experencia__ONE--conteudo">
+                    <p class="experencia__ONE--descricao">PROJETO 03</p>
+                </div>
+            </div>
         </section>
+
+        <section>
+            <h2 class="experiencia__Pro--titulo">Projetos Profissionais</h2>
+            <div class="experiencia__Pro">
+                <div class="experencia__Pro--conteudo">
+                    <p class="experencia__Pro--descricao">PROJETO 01</p>
+                </div>
+                <div class="experencia__Pro--conteudo">
+                    <p class="experencia__Pro--descricao">PROJETO 02</p>
+                </div>
+                <div class="experencia__Pro--conteudo">
+                    <p class="experencia__Pro--descricao">PROJETO 03</p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2 class="experiencia__Pe--titulo">Projetos Pessoais</h2>
+            <div class="experiencia__Pe">
+                <div class="experencia__Pe--conteudo">
+                    <p class="experencia__Pe--descricao">PROJETO 01</p>
+                </div>
+                <div class="experencia__Pe--conteudo">
+                    <p class="experencia__Pe--descricao">PROJETO 02</p>
+                </div>
+                <div class="experencia__Pe--conteudo">
+                    <p class="experencia__Pe--descricao">PROJETO 03</p>
+                </div>
+            </div>
+        </section>
+        
+        <section class="contato">
+            <div class="contato__conteudo">
+                <img src="./assets/imagens/contato.jpg" alt="Imagem contato" class="img__contato"> 
+                <div class="contato__container">
+                    <h1 class="contato__titulo">Contato</h1>
+                    <p class="contato__descricao">Quer entrar em contato comigo?</p>
+                    <p class="contato__descricao space">Preencha o formulário abaixo e entrarei em contato o mais rápido possível.</p>
+                    <form>
+                        <input type=nome  placeholder="Nome">
+                        <input type="email"  placeholder="Email">
+                        <input type="text"   placeholder="Assunto">
+                        <input class="mensagem meu-input" type="text" placeholder="Mensagem">
+                        <button class="btn__contato">Enviar mensagem</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
     </main>
 
-        <footer>
-            <p>desenvolvido por fulano de tal.</p>
-        </footer>
+    <footer>
+        <div class="dev">
+          <p>Desenvolvido por : Jonatas Pedro</p>
+          <a class="footer-link" href="https://www.linkedin.com/in/jonataspedrodev" target="_target">Linkedin | </a>
+          <a class="footer-link" href="https://github.com/jonataspedro01" target="_target">Github</a>  
+        </div>
+    </footer>
    
 </body>
 

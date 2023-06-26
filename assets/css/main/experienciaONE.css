@@ -1,0 +1,42 @@
+.experiencia__ONE--titulo {
+    color: #464646;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 23px;
+}
+
+.experiencia__ONE {
+    padding: 30px;
+    display: flex;
+    margin-left: 11%;
+    margin-right: 11%;
+ }
+
+ .experencia__ONE--conteudo {
+    display: flex;
+    padding-top: 10px;
+    text-align: center;
+    background-color: #b4b0fa;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 71%;
+    height: 230px;
+    margin-right: 16px;
+    margin-top: 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.experencia__ONE--descricao {
+    width: 100px;
+    color: #000000;
+}
+
+.experencia__ONE--conteudo:hover {
+    width: 80%;
+    height: 240px;
+    cursor: pointer;
+    background-color: #aaa6ed;
+}
