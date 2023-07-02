@@ -68,7 +68,7 @@
     }
 
     .titulo__email {
-        margin-left: -39px;
+        text-align: left;
         font-size: 14px;
         width: 50vw;
     }
@@ -76,10 +76,10 @@
 
 @media screen and (max-width: 290px) {
     .titulo__dev {
-        margin-left: -135px;
+        margin-left: -120px;
     }
     .titulo__email {
-        margin-left: -29px;
+        margin-left: 141px;
     }
 }
 
@@ -88,11 +88,11 @@
         display: block;
     }
     .titulo__dev {
-        margin-left: -25px;
+        margin-left: 50px;
         
     }
     .titulo__email {
         margin-top: 6px;
-        margin-left: 22px;
+        margin-left: 95px;
     }
 }

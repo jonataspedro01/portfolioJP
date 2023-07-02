@@ -1,10 +1,4 @@
-/* header {
-    display: none;
-} */
 
-main {
-    display: none;
-}
 
 .emConstrucao {
       display: flex;
@@ -50,8 +44,13 @@ a {
 a:hover {
     font-size: 22px;
     color:#000000;
-}
+} 
+
 /* Conteúdo oficial */
+
+.off {
+    display: none;
+}
 
 .apresentacao {
   display: flex;
@@ -108,3 +107,68 @@ a:hover {
     height: 300px;
     /* margin-right: 150px; */
 }
+
+/* Responsivo */
+
+
+
+
+@media screen and (max-width: 450px) {
+   .apresentacao {
+    display: flex;
+    margin-top: -80px;
+   }
+
+   .logo__apresentacao {
+    width: 125px;
+    height: 125px;
+    margin-top: 70px;
+    margin-left: -220px;
+    order: -1;
+   }
+
+   .apresentacao__info  h1 {
+     font-size: 22px;
+     margin-top: 163px;
+     font-weight: bold;
+     margin-left: -110px;
+     margin-right: -60px;
+   }
+
+   .apresentacao__info  p {
+    font-size: 16px;
+    margin-top: 20px;
+    margin-left: -110px;
+    margin-right: -65px;
+  }
+  .links {
+    display: flex;
+    margin-left: -110px;
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 290px) {
+    .logo__apresentacao {
+        margin-top: 70px;
+        margin-left: -150px;
+       }
+       .apresentacao__info  h1 {
+         margin-top: 163px;
+         margin-left: -110px;
+         margin-right: -134px;
+       }
+    
+       .apresentacao__info  p {
+        margin-top: 20px;
+        margin-left: -110px;
+        margin-right: -135px;
+      }
+      .links {
+        margin-left: -110px;
+      }
+}
+
+/* @media screen and (max-width: 280px) {
+   
+} */
