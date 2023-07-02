@@ -27,6 +27,12 @@
     font-size: 18px;
 }
 
+.ler:hover {
+    height: 165px;
+    width: 45%;
+    cursor: pointer;
+}
+
 .icone {
     margin-top: 20px;
     width: 60px;

@@ -15,7 +15,7 @@
 .titulo__logo {
     width: 100px;
     margin-top: -15px;
-    margin-right: -31px;
+    margin-right: -80px;
     margin-left: 90px;
 }
 
@@ -34,9 +34,65 @@
 
 .titulo__link {
     margin-left: 20px;
+    padding: 0;
 }
 
-.titulo p{
+.titulo__email {
     color: #000000;
     font-weight: bold;
+}
+
+.titulo__email, nav {
+    margin-top: 30px;
+}
+
+.titulo__email:hover {
+    margin-bottom: 40px;
+    background-color: rgb(235, 223, 223);
+}  
+
+.titulo__link:hover {
+   background-color: rgb(235, 223, 223); 
+   font-weight: bold;
+   font-size: 18px;
+}
+
+@media screen and (max-width: 450px) {
+    nav {
+        display: none;
+    }
+    .titulo__dev {
+        margin-top: -9px;
+        margin-left: -110px;
+        width: 50vw;
+    }
+
+    .titulo__email {
+        margin-left: -39px;
+        font-size: 14px;
+        width: 50vw;
+    }
+}
+
+@media screen and (max-width: 290px) {
+    .titulo__dev {
+        margin-left: -135px;
+    }
+    .titulo__email {
+        margin-left: -29px;
+    }
+}
+
+@media screen and (max-width: 280px) {
+    .titulo {
+        display: block;
+    }
+    .titulo__dev {
+        margin-left: -25px;
+        
+    }
+    .titulo__email {
+        margin-top: 6px;
+        margin-left: 22px;
+    }
 }

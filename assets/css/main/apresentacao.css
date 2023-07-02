@@ -1,12 +1,8 @@
-header {
+/* header {
     display: none;
-}
+} */
 
 main {
-    display: none;
-}
-
-footer {
     display: none;
 }
 
@@ -14,7 +10,7 @@ footer {
       display: flex;
       justify-content: center;
       align-items: center;
-      height: 100vh;
+      height: 40vh;
       font-family: Arial, sans-serif;
       background-color: #f2f2f2;
 }
@@ -39,14 +35,16 @@ a {
     text-decoration: none;
     color: black;
     padding-top: 22px;
-   justify-content: center;
+    justify-content: center;
     font-size: 18px;
+    padding-left: 10px;
 }
 
 .links__cons{
     text-align: center;
     font-size: 22px;
-    margin-right: 70px;
+    margin-left: 1px;
+    margin-top: 50px;
 }
 
 a:hover {
