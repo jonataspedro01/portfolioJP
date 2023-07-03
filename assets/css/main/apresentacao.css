@@ -80,8 +80,8 @@
 
 
 
-
-@media screen and (max-width: 450px) {
+/* 
+@media screen and (max-width: 650px) {
    .apresentacao {
     display: flex;
     margin-top: -80px;
@@ -109,11 +109,12 @@
     margin-left: -110px;
     margin-right: -65px;
   }
-  .links {
+   .links {
+    font-size: 4px;
     display: flex;
     margin-left: -110px;
-    font-size: 14px;
   }
+ 
 }
 
 @media screen and (max-width: 290px) {
@@ -135,7 +136,7 @@
       .links {
         margin-left: -110px;
       }
-}
+} */
 
 /* @media screen and (max-width: 280px) {
    
