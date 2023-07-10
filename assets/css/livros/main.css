@@ -7,34 +7,41 @@ main {
 .containerLivros{
     text-align: center;
     padding: 20px;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: bold;
+    font: 'arial';
 }
 
 .containerIMG {
     display: flex;
     margin: 0 auto;
     align-items: center;
-    width: 230px;
-    height: 270px;
+    width: 220px auto;
+    height: 290px;
+    border: 2px solid rgb(235, 48, 48);
 }
 
 .devocional1 {
     text-align: center;
-    font-size: 18px;
+    font-size: 16px;
     margin-top: 20px;
+}
+
+.resumo {
+    margin: 22px 18px;
+    text-align: center;
 }
 
 .btn__donw1 {
     display: block;
-    font-size: 20px;
+    font-size: 16px;
     background-color: rgb(92, 64, 64);
     color: white;
     border-radius: 12px;
     border: 2px solid white;
     margin: 0 auto;
     margin-top: 20px;
-    padding: 8px;
+    padding: 6px;
     align-items: center ;
     width: 150px;
     text-align: center;
@@ -42,8 +49,8 @@ main {
 
 .btn__donw1:hover {
     color: rgb(212, 199, 95);
-    font-size: 22px;
-    padding: 10px;
+    font-size: 18px;
+    padding: 8px;
 }
 
 

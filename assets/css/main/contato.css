@@ -32,8 +32,9 @@
 }
 
 .contato__descricao {
-    margin-top: 16px; 
+    margin-top: 20px; 
     color: #464646;
+    margin-bottom: 14px;
 }
 
 .space {
