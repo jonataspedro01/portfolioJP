@@ -12,9 +12,10 @@ a {
     display: flex;
     width: 100%;
     background-color: rgb(235, 233, 230);
-    height: 15vh;
+    height: 120px;
     color:rgb(56, 54, 54);
     text-align: center;
+    margin-bottom: 5px;
   }
   
   .footer-link {

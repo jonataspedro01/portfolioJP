@@ -1,0 +1,18 @@
+/* .emConstrucao {
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin-top: 10%;
+}
+
+.emConstrucao h1 {
+  font-size: 24px;
+    text-align: center;
+    color: #333333;
+    padding-bottom: 20px;
+} */
+
+.off , .emConstrucao{
+    display: none;
+}

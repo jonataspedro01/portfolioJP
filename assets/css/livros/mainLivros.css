@@ -1,5 +1,5 @@
 main {
-    height: 79vh;
+    height: 720px;
     margin-right: 0px;
     background-color: rgb(217, 217, 228);
 }
@@ -24,12 +24,19 @@ main {
 .devocional1 {
     text-align: center;
     font-size: 16px;
+    font-weight: bold;
     margin-top: 20px;
 }
 
 .resumo {
     margin: 22px 18px;
-    text-align: center;
+    text-align: justify;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.resumo span {
+    font-weight: bold;
 }
 
 .btn__donw1 {
@@ -50,7 +57,7 @@ main {
 .btn__donw1:hover {
     color: rgb(212, 199, 95);
     font-size: 18px;
-    padding: 8px;
+    padding: 7px;
 }
 
 

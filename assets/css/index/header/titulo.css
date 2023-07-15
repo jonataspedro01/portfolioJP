@@ -1,0 +1,57 @@
+.titulo {
+    display: flex;
+    padding-right: 10px;
+    padding: 4px;
+    position: relative;
+    top: -22px;
+}
+
+.titulo__dev {
+    margin-right: 28%;
+    display: flex;
+    margin-left: 20px;
+}
+
+.titulo__logo {
+    width: 100px;
+    margin-top: -15px;
+    margin-right: -80px;
+    margin-left: 90px;
+}
+
+/* .titulo__jp {
+    margin-top: 52px;
+    margin-left: -12px;
+} */
+
+.titulo , .titulo__link  , .titulo__email{
+    margin-left: 29px;
+    margin-top: 40px;
+    color: #262626;
+    font-size: 17px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.titulo__link {
+    margin-left: 20px;
+    padding: 0;
+}
+
+.titulo__email {
+    color: #000000;
+    font-weight: bold;
+}
+
+.titulo__email, nav {
+    margin-top: 30px;
+}
+
+.titulo__email:hover {
+    margin-bottom: 40px;
+    background-color: rgb(235, 223, 223);
+}  
+
+.titulo__link:hover {
+   background-color: rgb(235, 223, 223); 
+   font-weight: bold;
+}

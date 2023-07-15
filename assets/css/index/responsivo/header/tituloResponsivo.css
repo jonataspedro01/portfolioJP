@@ -1,0 +1,45 @@
+@media screen and (max-width: 1220px) {
+    nav {
+        display: none;
+    }
+    .titulo__logo {
+        margin-left: -20px;
+    }
+    .titulo__email {
+        margin-left: 400px;
+    }
+}
+
+@media screen and (max-width: 940px) {
+    .titulo__email {
+        margin-left: 370px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .titulo__email {
+        margin-left: 320px;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .titulo__email {
+        margin-left: 250;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .titulo__logo {
+        padding-left: -35px;
+    }
+
+    .titulo__email {
+        padding-right: 20px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .titulo__email {
+        margin-left: 250px;
+    }
+}
