@@ -1,13 +1,13 @@
 main {
-    height: 720px;
+    height: 750px;
     margin-right: 0px;
-    background-color: rgb(217, 217, 228);
+    background-color: rgb(210, 210, 187);
 }
 
 .containerLivros{
     text-align: center;
     padding: 20px;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: bold;
     font: 'arial';
 }
@@ -23,7 +23,7 @@ main {
 
 .devocional1 {
     text-align: center;
-    font-size: 16px;
+    font-size: 17px;
     font-weight: bold;
     margin-top: 20px;
 }
@@ -33,6 +33,7 @@ main {
     text-align: justify;
     margin-left: 10%;
     margin-right: 10%;
+    line-height: 20px;
 }
 
 .resumo span {
