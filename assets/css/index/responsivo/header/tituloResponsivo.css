@@ -12,19 +12,33 @@
 
 @media screen and (max-width: 940px) {
     .titulo__email {
-        margin-left: 370px;
+        margin-left: 330px;
     }
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 840px) {
     .titulo__email {
-        margin-left: 320px;
+        margin-left: 280px;
+    }
+}
+
+/* Tablet */
+
+@media screen and (max-width: 768px) {
+    .titulo__logo {
+       width: 130px;
+    }
+    
+    .titulo__email {
+        margin-left: 285px;
+        margin-top: 50px;
+        font-size: 16px;
     }
 }
 
 @media screen and (max-width: 680px) {
     .titulo__email {
-        margin-left: 250;
+        margin-left: 200;
     }
 }
 
@@ -41,5 +55,16 @@
 @media screen and (max-width: 500px) {
     .titulo__email {
         margin-left: 250px;
+    }
+}
+
+
+/* Mobile */
+
+@media screen and (max-width: 360px) {
+    .titulo__email {
+        margin-left: 200px;
+        font-weight: normal;
+        font-size: 14px;
     }
 }
