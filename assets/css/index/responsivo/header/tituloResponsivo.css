@@ -8,6 +8,9 @@
     .titulo__email {
         margin-left: 400px;
     }
+    .titulo__email:hover {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 940px) {
