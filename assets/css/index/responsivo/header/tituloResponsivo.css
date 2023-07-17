@@ -30,40 +30,49 @@
     }
     
     .titulo__email {
-        margin-left: 285px;
+        margin-left: 185px;
         margin-top: 50px;
         font-size: 16px;
     }
 }
 
 @media screen and (max-width: 680px) {
+    .titulo__logo {
+        margin-left: -18px;
+        width: 100px;
+    }
+
     .titulo__email {
-        margin-left: 200;
+        margin-left: 100px;
     }
 }
 
 @media screen and (max-width: 575px) {
-    .titulo__logo {
-        padding-left: -35px;
-    }
-
     .titulo__email {
-        padding-right: 20px;
+        margin-left: 80px;
     }
 }
 
 @media screen and (max-width: 500px) {
+    .titulo__logo {
+        margin-left: 4px;
+    }
+    
     .titulo__email {
-        margin-left: 250px;
+        margin-left: -4px;
     }
 }
 
 
 /* Mobile */
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 390px) {
+    .titulo__logo {
+        margin-left: -24px;
+    }
+    
     .titulo__email {
-        margin-left: 200px;
+        margin-left: 2px;
         font-weight: normal;
         font-size: 14px;
     }
