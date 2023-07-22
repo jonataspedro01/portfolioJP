@@ -129,27 +129,31 @@
 
 @media screen and (max-width: 390px) {
     .apresentacao__info {
-        width: 355px;
+        width: 350px;
     }
     .apresentacao__logo {
         margin-left: -400px;
     }
 }
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 360px) {
     .apresentacao__info {
         width: 330px;
     }
     .apresentacao__logo {
         margin-left: -380px;
     }
+    .links a {
+        padding-right: 10px;
+    }
 }
 
 @media screen and (max-width: 330px) {
     .apresentacao__info {
-        width: 310px;
+        width: 300px;
     }
     .apresentacao__logo {
-        margin-left: -350px;
+        margin-left: -340px;
     }
+   
 }
