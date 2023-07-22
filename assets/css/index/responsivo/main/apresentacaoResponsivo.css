@@ -73,7 +73,7 @@
         width: 380px;
     }
     .links a {
-        margin-left: -7px;
+        padding-right: 10px;
         font-size: 12px;
     }
 }
@@ -142,7 +142,7 @@
         margin-left: -400px;
     }
     .links a {
-        padding-right: 9px;
+        padding-right: 12px;
     }
 }
 
