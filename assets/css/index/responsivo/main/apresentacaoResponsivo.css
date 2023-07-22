@@ -23,7 +23,7 @@
 
 @media screen and (max-width: 940px) {
     .apresentacao__info {
-        width: 550px;
+        width: 570px;
     }
     .logo__apresentacao {
         width: 165px;
@@ -33,7 +33,7 @@
 
 @media screen and (max-width: 840px) {
     .apresentacao__info {
-        width: 480px;
+        width: 520px;
     }
     .logo__apresentacao {
         width: 150px;
@@ -51,11 +51,14 @@
 
 @media screen and (max-width: 768px) {
     .apresentacao__info {
-        width: 430px;
+        width: 450px;
         margin-left: 12px; 
     }
     .links a{
         font-size: 14px;
+    }
+    .arrow {
+        width: 14px;
     }
 }
 
@@ -67,7 +70,7 @@
 
 @media screen and (max-width: 660px) {
     .apresentacao__info {
-        width: 350px;
+        width: 370px;
     }
 }
 
@@ -135,13 +138,13 @@
         margin-left: -400px;
     }
     .links a {
-        padding-right: 10px;
+        padding-right: 7px;
     }
 }
 
 @media screen and (max-width: 360px) {
     .apresentacao__info {
-        width: 330px;
+        width: 335px;
     }
     .apresentacao__logo {
         margin-left: -380px;
@@ -150,10 +153,12 @@
 
 @media screen and (max-width: 330px) {
     .apresentacao__info {
-        width: 300px;
+        width: 315px;
     }
     .apresentacao__logo {
         margin-left: -340px;
     }
-   
+    .links a {
+        padding-right: 2px;
+    }
 }
