@@ -72,6 +72,9 @@
     .apresentacao__info {
         width: 370px;
     }
+    .links a {
+        margin-left: -7px;
+    }
 }
 
 @media screen and (max-width: 610px) {
@@ -139,7 +142,7 @@
     }
     .links a {
         padding-right: 5px;
-        font-size: 10px;
+        font-size: 12px;
     }
 }
 
