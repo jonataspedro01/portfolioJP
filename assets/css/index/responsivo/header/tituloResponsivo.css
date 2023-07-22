@@ -8,9 +8,6 @@
     .titulo__email {
         margin-left: 400px;
     }
-    .titulo__email:hover {
-        display: none;
-    }
 }
 
 @media screen and (max-width: 940px) {
@@ -29,53 +26,66 @@
 
 @media screen and (max-width: 768px) {
     .titulo__logo {
-       width: 130px;
+       width: 110px;
     }
     
     .titulo__email {
-        margin-left: 185px;
+        margin-left: 220px;
         margin-top: 50px;
         font-size: 16px;
     }
 }
 
-@media screen and (max-width: 680px) {
+@media screen and (max-width: 700px) {
     .titulo__logo {
         margin-left: -18px;
         width: 100px;
     }
 
     .titulo__email {
+        margin-left: 210px;
+    }
+}
+
+@media screen and (max-width: 660px) {
+    .titulo__logo {
+        margin-left: -42px;
+        width: 100px;
+    }
+    .titulo__email {
+        margin-left: 180px;
+    }
+}
+
+@media screen and (max-width: 610px) {
+    .titulo__email {
         margin-left: 100px;
     }
 }
 
-@media screen and (max-width: 575px) {
-    .titulo__email {
-        margin-left: 80px;
-    }
-}
-
 @media screen and (max-width: 500px) {
-    .titulo__logo {
-        margin-left: 4px;
-    }
-    
     .titulo__email {
-        margin-left: -4px;
+        margin-left: 60px;
     }
 }
 
+@media screen and (max-width: 450px) {
+    .titulo__email {
+        margin-left: 40px;
+    }
+}
+
+@media screen and (max-width: 415px) {
+    .titulo__email {
+        margin-left: 20px;
+    }
+}
 
 /* Mobile */
 
-@media screen and (max-width: 390px) {
-    .titulo__logo {
-        margin-left: -24px;
-    }
-    
+@media screen and (max-width: 390px) { 
     .titulo__email {
-        margin-left: 2px;
+        margin-left: 10px;
         font-weight: normal;
         font-size: 14px;
     }

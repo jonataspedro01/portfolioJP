@@ -47,11 +47,6 @@
     margin-top: 30px;
 }
 
-.titulo__email:hover {
-    margin-bottom: 40px;
-    background-color: rgb(235, 223, 223);
-}  
-
 .titulo__link:hover {
    background-color: rgb(235, 223, 223); 
    font-weight: bold;
