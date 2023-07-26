@@ -1,0 +1,112 @@
+@media screen and (max-width: 1220px) {
+    .sobreMim__text {
+        margin-left: 62px;
+        width: 920px;
+    }
+}
+
+@media screen and (max-width: 1030px) {
+    .sobreMim__text {
+        width: 880px;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .sobreMim__text {
+        width: 800px;
+    }
+}
+
+@media screen and (max-width: 870px) {
+    .sobreMim {
+        height: 200px;
+    }
+
+    .sobreMim__text {
+        width: 700px;
+    }
+
+    .sobreMim_text,
+    h1 {
+        font-size: 22px;
+    }
+
+    .sobreMim_text,
+    p {
+        font-size: 14px;
+    }
+}
+
+/* Tablet */
+
+@media screen and (max-width: 770px) {
+    .sobreMim__text {
+        width: 620px;
+        margin-left: 43px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .sobreMim__text {
+        width: 530px;
+    }
+}
+
+@media screen and (max-width: 610px) {
+    .sobreMim {
+        margin-top: -1px;
+    }
+
+    .sobreMim__text {
+        width: 496px;
+        margin-left: 22px;
+    }
+}
+
+@media screen and (max-width: 530px) {
+    .sobreMim__text {
+        width: 430px;
+    }
+}
+
+@media screen and (max-width: 465px) {
+    .sobreMim {
+        height: 230px;
+    }
+
+    .sobreMim__text {
+        width: 385px;
+    }
+}
+
+@media screen and (max-width: 415px) {
+    .sobreMim {
+        height: 230px;
+    }
+
+    .sobreMim__text {
+        width: 345px;
+    }
+}
+
+/* Mobile */
+
+@media screen and (max-width: 390px) {
+    .sobreMim {
+        height: 240px;
+    }
+
+    .sobreMim__text {
+        width: 330px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .sobreMim {
+        height: 260px;
+    }
+
+    .sobreMim__text {
+        width: 290px;
+    }
+}
