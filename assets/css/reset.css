@@ -26,7 +26,8 @@ footer, header, hgroup, menu, nav, section {
 
 body {
 	line-height: 1;
-    background-color: #F5F5F5;
+    /* background-color: #F5F5F5; */
+	background-color: red;
 	overflow-x: hidden; /* Esconde a barra de rolagem horizontal */
     overflow-y: auto;   /* Habilita a rolagem vertical quando necessário */
 }

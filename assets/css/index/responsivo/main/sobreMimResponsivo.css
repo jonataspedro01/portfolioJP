@@ -10,7 +10,7 @@
 
 @media screen and (max-width: 1030px) {
     .sobreMim {
-        height: 330px;
+        height: 340px;
     }
     .sobreMim__text {
         width: 880px;
@@ -47,7 +47,7 @@
 
 @media screen and (max-width: 768px) {
     .sobreMim {
-        height: 360px;
+        height: 380px;
     }
     .sobreMim__text {
         width: 620px;
@@ -57,7 +57,7 @@
 
 @media screen and (max-width: 700px) {
     .sobreMim {
-        height: 405px;
+        height: 420px;
     }
     .sobreMim__text {
         width: 530px;
@@ -68,6 +68,7 @@
 @media screen and (max-width: 610px) {
     .sobreMim {
         margin-top: -1px;
+        height: 440px;
     }
 
     .sobreMim__text {
