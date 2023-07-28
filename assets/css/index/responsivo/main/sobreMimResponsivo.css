@@ -78,7 +78,7 @@
 
 @media screen and (max-width: 530px) {
     .sobreMim {
-        height: 430px;
+        height: 450px;
     }
     .sobreMim__text {
         width: 460px;
@@ -97,7 +97,7 @@
 
 @media screen and (max-width: 465px) {
     .sobreMim {
-        height: 470px;
+        height: 490px;
     }
 
     .sobreMim__text {
@@ -107,19 +107,19 @@
 
 @media screen and (max-width: 435px) {
     .sobreMim {
-        height: 535px;
+        height: 565px;
     }
 
     .sobreMim__text {
-        width: 345px;
+        width: 375px;
     }
 }
 
 /* Mobile */
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 400px) {
     .sobreMim {
-        height: 580px;
+        height: 640px;
     }
 
     .sobreMim__text {
