@@ -1,4 +1,7 @@
 @media screen and (max-width: 1220px) {
+    .sobreMim {
+        height: 300px;
+    }
     .sobreMim__text {
         margin-left: 62px;
         width: 920px;
@@ -6,6 +9,9 @@
 }
 
 @media screen and (max-width: 1030px) {
+    .sobreMim {
+        height: 330px;
+    }
     .sobreMim__text {
         width: 880px;
     }
@@ -13,17 +19,17 @@
 
 @media screen and (max-width: 950px) {
     .sobreMim__text {
-        width: 800px;
+        width: 780px;
     }
 }
 
 @media screen and (max-width: 870px) {
     .sobreMim {
-        height: 200px;
+        height: 340px;
     }
 
     .sobreMim__text {
-        width: 700px;
+        width: 680px;
     }
 
     .sobreMim_text,
@@ -39,16 +45,23 @@
 
 /* Tablet */
 
-@media screen and (max-width: 770px) {
+@media screen and (max-width: 768px) {
+    .sobreMim {
+        height: 360px;
+    }
     .sobreMim__text {
         width: 620px;
-        margin-left: 43px;
+        margin-left: 39px;
     }
 }
 
 @media screen and (max-width: 700px) {
+    .sobreMim {
+        height: 405px;
+    }
     .sobreMim__text {
         width: 530px;
+        /* margin-left: 38px; */
     }
 }
 
@@ -58,30 +71,43 @@
     }
 
     .sobreMim__text {
-        width: 496px;
+        width: 500px;
         margin-left: 22px;
     }
 }
 
 @media screen and (max-width: 530px) {
+    .sobreMim {
+        height: 430px;
+    }
     .sobreMim__text {
-        width: 430px;
+        width: 460px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .sobreMim {
+        height: 485px;
+    }
+
+    .sobreMim__text {
+        width: 415px;
     }
 }
 
 @media screen and (max-width: 465px) {
     .sobreMim {
-        height: 230px;
+        height: 470px;
     }
 
     .sobreMim__text {
-        width: 385px;
+        width: 405px;
     }
 }
 
-@media screen and (max-width: 415px) {
+@media screen and (max-width: 435px) {
     .sobreMim {
-        height: 230px;
+        height: 535px;
     }
 
     .sobreMim__text {
@@ -93,7 +119,7 @@
 
 @media screen and (max-width: 390px) {
     .sobreMim {
-        height: 240px;
+        height: 550px;
     }
 
     .sobreMim__text {
@@ -103,10 +129,10 @@
 
 @media screen and (max-width: 360px) {
     .sobreMim {
-        height: 260px;
+        height: 570px;
     }
 
     .sobreMim__text {
-        width: 290px;
+        width: 300px;
     }
 }
