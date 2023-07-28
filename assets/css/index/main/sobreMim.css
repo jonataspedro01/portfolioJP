@@ -1,9 +1,9 @@
 .sobreMim {
-    /* background-color: #EAF2FD; */
-    background-color: rgb(168, 117, 216);
+    background-color: #EAF2FD;
     height: 402px;
     margin-top: 26px;
     width: 100%;
+    margin-bottom: 10px;
 }
 
 .sobreMim__text {
