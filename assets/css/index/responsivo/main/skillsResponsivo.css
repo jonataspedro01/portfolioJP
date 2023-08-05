@@ -2,53 +2,66 @@
     .skills__titulo {
         font-size: 22px;
     }
-    .skills__conteudo{
+
+    .skills__conteudo {
         flex-wrap: wrap;
         margin-left: 7%;
         margin-right: 7%;
     }
+
     .skills__conteudo--base {
         width: 30%;
         font-size: 16px;
     }
+
     .icone {
-    width: 50px;
-    height: 70px;
+        width: 50px;
+        height: 70px;
     }
 }
 
-
 @media screen and (max-width: 574px) {
-    .skills__conteudo{
-        background-color: red;
+    .skills__conteudo {
         margin-left: 3%;
         margin-right: 3%;
     }
 }
 
 @media screen and (max-width: 527px) {
-    .skills__conteudo{
-        background-color: yellow;
-         margin-left: 4%;
-        margin-right: -15%;
-}
-    .skills__conteudo--base {
-        width: 25%;
+    .skills__conteudo {
+        margin-right: 0%;
     }
+
+    .skills__conteudo--base {
+        width: 45%;
+    }
+
     .icone {
         width: 40px;
         height: 60px;
-        }
+    }
 }
 
 /* Mobile */
 
 @media screen and (max-width: 390px) {
     .skills__conteudo--base {
-        width: 40%;
+        width: 45%;
     }
+
     .icone {
-        width: 30px;
-        height: 50px;
-        }
+        width: 20px;
+        height: 25px;
+    }
+}
+
+@media screen and (max-width: 330px) {
+    .skills__conteudo--base {
+        width: 42%;
+    }
+
+    .icone {
+        width: 20px;
+        height: 25px;
+    }
 }
