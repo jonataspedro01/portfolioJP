@@ -24,6 +24,11 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 
+html { 
+    min-width: 320px; 
+    max-width: 1400px; 
+}
+
 body {
 	line-height: 1;
     background-color: #F5F5F5;
