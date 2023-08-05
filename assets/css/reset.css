@@ -30,6 +30,7 @@ body {
 	/* background-color: red; */
 	overflow-x: hidden; /* Esconde a barra de rolagem horizontal */
     overflow-y: auto;   /* Habilita a rolagem vertical quando necessário */
+	/* overflow: hidden auto; testar */
 }
 
 ol, ul {
