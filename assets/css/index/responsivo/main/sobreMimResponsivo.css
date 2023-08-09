@@ -28,7 +28,7 @@
 
 @media screen and (max-width: 870px) {
     .sobreMim {
-        height: 340px;
+        height: 350px;
     }
 
     .sobreMim__text {
@@ -50,7 +50,7 @@
 
 @media screen and (max-width: 768px) {
     .sobreMim {
-        height: 380px;
+        height: 390px;
     }
     .sobreMim__text {
         width: 620px;
