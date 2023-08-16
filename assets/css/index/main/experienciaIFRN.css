@@ -36,7 +36,9 @@
 
 .experencia__IFRN--descricao {
     width: 100px;
+    border: 2px solid black;
     color: #000000;
+    background-color: yellow;
 }
 
 .experencia__IFRN--conteudo:hover {

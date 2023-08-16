@@ -1,0 +1,36 @@
+@media screen and (max-width: 1020px) {
+    .experiencia__IFRN {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .experencia__IFRN--conteudo {
+        margin-bottom: 30px;
+        width: 75%;
+    }
+}
+
+/* Mobile */
+
+@media screen and (max-width: 630px) {
+    .experencia__IFRN--conteudo {
+        width: 85%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .experencia__IFRN--conteudo {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 415px) {
+    /* .experencia__IFRN--conteudo {
+        width: 100%;
+    } */
+
+    .experiencia__IFRN {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}
