@@ -31,7 +31,9 @@
 
 .experencia__Pro--descricao {
     width: 100px;
+    border: 2px solid black;
     color: #000000;
+    background-color: rgb(246, 246, 75);
 }
 
 .experencia__Pro--conteudo:hover {

@@ -1,10 +1,10 @@
 @media screen and (max-width: 1020px) {
-    .experiencia__IFRN {
+    .experiencia__Pro {
         flex-wrap: wrap;
         justify-content: space-around;
     }
 
-    .experencia__IFRN--conteudo {
+    .experencia__Pro--conteudo {
         margin-bottom: 30px;
         width: 75%;
     }
@@ -13,23 +13,23 @@
 /* Mobile */
 
 @media screen and (max-width: 630px) {
-    .experencia__IFRN--conteudo {
+    .experencia__Pro--conteudo {
         width: 85%;
     }
 }
 
 @media screen and (max-width: 500px) {
-    .experencia__IFRN--conteudo {
+    .experencia__Pro--conteudo {
         width: 90%;
     }
 }
 
 @media screen and (max-width: 415px) {
-    .experiencia__IFRN--titulo {
+    .experiencia__Pro--titulo {
         font-size: 18px;
     }
 
-    .experiencia__IFRN {
+    .experiencia__Pro {
         margin-left: 5%;
         margin-right: 5%;
     }
