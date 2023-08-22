@@ -1,0 +1,37 @@
+@media screen and (max-width: 1160px) {
+    .img__contato {
+        display: none;
+    }
+    input {
+        width: 700px;
+    }
+}
+
+/* Mobile */
+
+@media screen and (max-width: 815px) {
+    .contato__conteudo {
+        margin-left: 5%;
+    }
+    input {
+        width: 600px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    input {
+        width: 450px;
+    }
+}
+
+@media screen and (max-width: 490px) {
+    input {
+        width: 350px;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    input {
+        width: 280px;
+    }
+}
