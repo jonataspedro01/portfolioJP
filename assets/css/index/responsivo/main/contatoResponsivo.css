@@ -2,6 +2,9 @@
     .img__contato {
         display: none;
     }
+    .contato__container {
+        margin-top: 25px;
+    }
     input {
         width: 700px;
     }
