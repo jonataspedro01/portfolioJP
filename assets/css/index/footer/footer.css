@@ -1,7 +1,8 @@
-footer {
+/* footer {
   display: none;
-}
-/* 
+} */
+
+
 a {
     text-decoration: none;
     color:rgb(56, 54, 54);
@@ -40,6 +41,6 @@ a {
     font-size: 18px;
   }
   
-  p {
-   margin-bottom: 15px;
-  } */
+  .paragrafo {
+   margin-bottom: 20px;
+  }
