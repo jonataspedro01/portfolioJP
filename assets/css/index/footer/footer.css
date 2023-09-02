@@ -2,7 +2,6 @@
   display: none;
 } */
 
-
 a {
     text-decoration: none;
     color:rgb(56, 54, 54);
@@ -20,6 +19,7 @@ a {
     height: 25vh;
     color:rgb(56, 54, 54);
     text-align: center;
+    padding-bottom: 30px;
   }
   
   .footer-link {
@@ -39,6 +39,7 @@ a {
     margin: 0 auto;
     padding-top: 41px;
     font-size: 18px;
+    padding-bottom: 12px;
   }
   
   .paragrafo {

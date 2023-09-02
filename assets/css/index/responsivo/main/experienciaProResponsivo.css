@@ -16,6 +16,10 @@
     .experencia__Pro--conteudo {
         width: 85%;
     }
+    .experiencia {
+        /* background-color: red; */
+        margin-top: 20px;
+    }
 }
 
 @media screen and (max-width: 500px) {

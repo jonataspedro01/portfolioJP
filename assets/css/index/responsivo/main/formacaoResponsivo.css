@@ -19,6 +19,11 @@
         width: 39%;
         height: 150px;
    }
+
+   .if {
+    height: 165px;
+   }
+
    .formacao__logos {
         width: 100px;
         height: 100px;
@@ -35,7 +40,7 @@
 
 @media screen and (max-width: 585px) {
     .formacao {
-        height: 750px;
+        height: 780px;
     }
     .formacao__conteudo--base {
         width: 55%;
